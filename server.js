@@ -1,9 +1,6 @@
-var express = require('express');
-var app = express();
+var config = require('./app/config/config');
+var app = require('./app/config/express')();
+var mongodb = require('./app/config/mongodb')();
 
-app.get('/', function(req, res) {
-    res.send('Welcome to Node server');
-});
-
-app.listen(4900);
-console.log('server running at port: 4900');
+app.listen(config.port);
+console.log('server running at port: ', config.port);
