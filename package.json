@@ -1,0 +1,28 @@
+{
+  "name": "meanstackapp",
+  "version": "1.0.0",
+  "description": "this is a product to maintain inventory",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyneninarendra/meanStackApp.git"
+  },
+  "keywords": [
+    "nodejs",
+    "inventory",
+    "express",
+    "ejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyneninarendra/meanStackApp/issues"
+  },
+  "homepage": "https://github.com/pyneninarendra/meanStackApp#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
